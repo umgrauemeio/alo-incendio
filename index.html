@@ -16,10 +16,16 @@
 
     main{
       display: flex;
+      /* flex-direction: column; */
     }
 
     .text-wrapper{
       width: 30%;
+    }
+
+    .logo{
+      height: 5rem;
+      width: 5rem;
     }
   </style>
 
@@ -28,8 +34,11 @@
 
   <main>
     
-    <div class='text-wrapper'>    
+    <div class='text-wrapper'>
+      <h2 style="text-align: center;">Alô Incêndio</h2>
+      
       <p>
+        <img src='images/aloLogo1.png' class='logo'>
         Alô incêndio é um aplicativo colaborativo gratuito, que permite que 
         a população registre ocorrências de incêndio a partir de fotos tiradas com seus celulares.
       </p>
@@ -38,11 +47,33 @@
         O aplicativo combina informações coletadas pelo público e por brigadas de incêndio,
         e usa moderna tecnologia na nuvem para obter de forma mais precisa a localização dos focos e auxiliar as brigadas no combate.
       </p>
+
+      <h4>
+        Desenvolvimento
+      </h4>
+      
+      <ul>
+        <li><a href="https://umgrauemeio.com" target="_blank">umgrauemeio</a></li>
+        <li><a href="https://smokepoint.app" target="_blank">smokepoint</a></li>
+      </ul>
+      
+      <h4>
+        Parceiros
+      </h4>
+
+      <ul>
+        <li>PPA</li>
+        <li>Ambev</li>
+      </ul>
+
+
     </div>
-    
-    <img src='images/aloIncendio1.png'>
-    
-    <img src='images/aloIncendio2.png'>
+
+    <div>
+      <img src='images/aloIncendio1.png'>
+      
+      <img src='images/aloIncendio2.png'>
+    </div>
     
   </main>
 
